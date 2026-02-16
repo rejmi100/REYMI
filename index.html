@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Vítejte na našem webu!</title>
+        <title>1IT - Varnsdorf</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
@@ -14,6 +14,25 @@
         <main>
             <section>
                 <h2>Přidat úkol</h2>
+                <form>
+                    <div>
+                        <label>Předmět</label></br>
+                        <select>
+                            <option value="matematika">Matematika</option>
+                            <option value="informatika">Informatika</option>
+                            <option value="fyzika">Fyzika</option>
+                            <option value="chemie">Chemie</option>
+                            <option value="biologie">Biologie</option>
+                            <option value="český jazyk">Český jazyk</option>
+                            <option value="anglický jazyk">Anglický jazyk</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Popis úkolu</label></br>
+                        <input type="text" required maxlength="140"
+                        placeholder="Napiš popis úkolu">
+                    </div>
+                </form>
             </section>
             <section>
                 <h2>Seznam úkolů</h2>
